@@ -1,6 +1,6 @@
 
 create table airports (
-    Airport ID int primary key,
+    Airport_ID int primary key,
     Name text not null,
     City text not null,
     Country text not null,
@@ -11,7 +11,7 @@ create table airports (
     Altitude Decimal,
     Timezone Decimal,
     DST text,
-    Tz database Timezone text,
+    Tz_database_Timezone text,
     Type text,
     Source text
 );
